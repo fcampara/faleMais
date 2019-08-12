@@ -4,9 +4,11 @@
       v-bind="_config.input"
       v-model="localValue"
       use-input
-        input-debounce="0"
+      input-debounce="0"
+      ref="input"
       :options="localOptions"
       :label="label"
+      :rules="rules"
       @filter="filterFn"
     >
       <template v-slot:no-option>
@@ -24,7 +26,8 @@ export default {
   props: {
     label: String,
     value: [Number, String, Object],
-    options: Array
+    options: Array,
+    rules: Array
   },
   created () {
     this.localOptions = this.options

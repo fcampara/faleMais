@@ -1,12 +1,18 @@
 <template>
-  <q-input v-bind="_config.input" v-model="localValue" :label="label" type="number" />
+  <q-input v-bind="_config.input" v-model="localValue" ref="input" :label="label" type="number" :rules="rules" >
+    <template v-if="append" v-slot:append>
+      {{ append }}
+    </template>
+  </q-input>
 </template>
 <script>
 export default {
   props: {
     value: [Number, String],
     label: String,
-    integer: Boolean
+    append: String,
+    integer: Boolean,
+    rules: Array
   },
   computed: {
     localValue: {

@@ -9,5 +9,6 @@ export default {
   plan: 'Plano',
   withPlan: 'Com plano',
   withoutPlan: 'Sem plano',
-  noResults: 'Sem resultados'
+  noResults: 'Sem resultados',
+  minutes: 'Minutos'
 }

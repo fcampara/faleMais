@@ -11,5 +11,6 @@ export default {
   plan: 'Plan',
   withPlan: 'With plan',
   withoutPlan: 'Without plan',
-  noResults: 'No Results'
+  noResults: 'No Results',
+  minutes: 'Minutes'
 }

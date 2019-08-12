@@ -8,7 +8,8 @@ module.exports = function (ctx) {
     boot: [
       'i18n',
       'config',
-      'customComponents'
+      'customComponents',
+      'validation'
     ],
 
     css: [
@@ -34,6 +35,10 @@ module.exports = function (ctx) {
       // all: true, // --- includes everything; for dev only!
 
       components: [
+        'QTable',
+        'QTh',
+        'QTr',
+        'QTd',
         'QInput',
         'QSelect',
         'QLayout',
@@ -57,7 +62,8 @@ module.exports = function (ctx) {
 
       // Quasar plugins
       plugins: [
-        'Notify'
+        'Notify',
+        'LocalStorage'
       ]
     },
 
