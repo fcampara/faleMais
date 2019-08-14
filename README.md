@@ -1,5 +1,7 @@
 # Fale Mais (Telzir)
 
+O sistema está hospedado em um servidor do Google com a seguinte url [https://falemais-d389d.firebaseapp.com/](https://falemais-d389d.firebaseapp.com/)
+
 ## Tecnologias utilizadas
 
 - [Quasar Framework](https://quasar.dev/)
