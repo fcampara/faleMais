@@ -6,7 +6,7 @@
         <q-toolbar-title>
           Telzir
         </q-toolbar-title>
-
+        <Language/>
       </q-toolbar>
     </q-header>
 
@@ -17,10 +17,12 @@
 </template>
 
 <script>
+import Language from '../components/Language'
 import { openURL } from 'quasar'
 
 export default {
   name: 'MyLayout',
+  components: { Language },
   data () {
     return {
       leftDrawerOpen: this.$q.platform.is.desktop

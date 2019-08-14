@@ -78,6 +78,8 @@ export default {
         from: null,
         to: null
       }
+
+      this._resetValidation()
     }
   },
   watch: {

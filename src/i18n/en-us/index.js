@@ -12,5 +12,6 @@ export default {
   withPlan: 'With plan',
   withoutPlan: 'Without plan',
   noResults: 'No Results',
-  minutes: 'Minutes'
+  minutes: 'Minutes',
+  language: 'Language'
 }

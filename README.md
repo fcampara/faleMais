@@ -1,26 +1,26 @@
-# Fale Mais (falemais)
+# Fale Mais (Telzir)
 
-Fale Mais
+## Tecnologias utilizadas
 
-## Install the dependencies
+- [Quasar Framework](https://quasar.dev/)
+- [Cypress](https://www.cypress.io/)
+
+## Instalação
+
+Para instalar Quasar Framework basta instala a dependencia dele globalmente (Certifique-se de ter instalado Node e NPM)
+
 ```bash
-npm install
+  npm install -g @quasar/cli
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+Após a instalação basta acessar o diretório do sistema e executar no ambiente de desenvolvimento
+
 ```bash
-quasar dev
+  cd faleMais && quasar dev
 ```
 
-### Lint the files
-```bash
-npm run lint
-```
+Para executar os testes é necessário estar com o projeto rodando em ambiente de desenvolvimento e basta apenas executar o comando
 
-### Build the app for production
 ```bash
-quasar build
+  npm run test
 ```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
