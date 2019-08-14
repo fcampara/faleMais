@@ -57,8 +57,8 @@ export default {
       update(() => {
         const needle = val.toLowerCase()
         this.localOptions = this.options.filter(v => {
-          const { value } = v
-          return value ? (value.toString().toLowerCase().indexOf(needle) > -1) : (v.toLowerCase().indexOf(needle) > -1)
+          const { value, label } = v
+          return value ? (label.toString().toLowerCase().indexOf(needle) > -1) : (v.toLowerCase().indexOf(needle) > -1)
         })
       })
     }

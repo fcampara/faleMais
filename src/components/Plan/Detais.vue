@@ -2,8 +2,8 @@
   <div class="row col-12 q-mt-md justify-center align-center">
     <span class="text-h3 text-center col-6"> {{ $t('withPlan') }} </span>
     <span class="text-h3 text-center col-6"> {{ $t('withoutPlan') }} </span>
-    <span class="text-h4 text-center col-6"> {{ withPlan }} </span>
-    <span class="text-h4 text-center col-6"> {{ withoutPlan }} </span>
+    <span class="text-h4 text-center col-6" data-cy="withPlan"> {{ withPlan }} </span>
+    <span class="text-h4 text-center col-6" data-cy="withoutPlan"> {{ withoutPlan }} </span>
   </div>
 </template>
 <script>
